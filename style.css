@@ -25,4 +25,7 @@ div.scrollmenu a {
     justify-content: center;
     flex-wrap: wrap;
   }
+  .nav-bar-items {
+    margin: auto;
+  }
 }
