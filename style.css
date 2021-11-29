@@ -17,3 +17,12 @@ div.scrollmenu a {
   min-height: 350px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
