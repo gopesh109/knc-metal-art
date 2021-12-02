@@ -22,14 +22,14 @@
 
     <!-- Header/Navbar -->
     <!-- add fixed-top class for sticky navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark border border-dark bg-dark" id='home'>
+    <nav class="navbar navbar-expand-lg border border-dark" id='home' style='background-color: grey;'>
         <div class="container">
             <a class="navbar-brand logo" href=".">
-                <img src="https://dummyimage.com/100x30/007bff/efefef" alt="Logo" style="width: 100px;">
+                <img src="/images/brand-logo.png" alt="Logo" style="width: 100px;">
             </a>
             <div class="scrollmenu ms-auto me-md-2 mt-2 mt-lg-0 nav-bar-items">
 
-                <a href="/">Home <span class="sr-only">(current)</span></a>
+                <a href="/">Home </a>
                 <!-- <a href="#">About</a> -->
 
                 <a href="#our-work">Our Work</a>
@@ -48,27 +48,43 @@
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/Screeyyyyy.png" class="d-block w-100" alt="Slide 1">
+                    <img src="images/1638360217288.jpg" class="d-block w-100" alt="Slide 1">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Screeyyyyy.png" class="d-block w-100" alt="Slide 2">
+                    <img src="images/1638360220042.jpg" class="d-block w-100" alt="Slide 2">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/Screeyyyyy.png" class="d-block w-100" alt="Slide 3">
+                    <img src="images/1638360413049.jpg" class="d-block w-100" alt="Slide 3">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/1638360415237.jpg" class="d-block w-100" alt="Slide 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/1638360595782.jpg" class="d-block w-100" alt="Slide 5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
             </div>
@@ -92,93 +108,27 @@
                     <p class="lead">Completed project by category</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 col-sm-4 col-md-3 mb-4">
-                    <div class="card shadow">
-                        <img class="img-fluid" alt="100%x280"
-                            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                        <!-- <div
-                            class="card-img-overlay p-1 d-flex  flex-column  align-items-baseline justify-content-center ">
-                        </div> -->
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="./indoor.html">Indoor Articles</a></h4>
-                            <p class="card-text">Created by: Nikunj Patel</p>
-                        </div>
+            <div class="row category" id="category">
+                <!-- <div class="col-6 col-sm-4 col-md-3 mb-4">
+                    <div class="card b-0">
+                        <a href="/category/indoor.html">
+                            <img class="img-fluid" alt="Bed Room" src="/images/bed-room/1638359795765.jpg">
+                            <div
+                                class="card-img-overlay p-1 d-flex  flex-column  align-items-baseline justify-content-center ">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Bed Room
+                                </h4>
+                            </div>
+                        </a>
+
                     </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 mb-4">
-                    <div class="card shadow">
-                        <img class="img-fluid" alt="100%x280"
-                            src="https://images.unsplash.com/photo-1534085838602-9624ac7ab9e5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=60c977d7ae1c903e3c67526ea8019a67">
-                        <div
-                            class="card-img-overlay p-1 d-flex  flex-column  align-items-baseline justify-content-center ">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Outdoor Arts</h4>
-                            <p class="card-text">Created by: Nikunj Patel</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 mb-4">
-                    <div class="card shadow">
-                        <img class="img-fluid" alt="100%x280"
-                            src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                        <div
-                            class="card-img-overlay p-1 d-flex  flex-column  align-items-baseline justify-content-center ">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Home Decoration</h4>
-                            <p class="card-text">Created by: Nikunj Patel</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 mb-4">
-                    <div class="card shadow">
-                        <img class="img-fluid" alt="100%x280"
-                            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                        <div
-                            class="card-img-overlay p-1 d-flex  flex-column  align-items-baseline justify-content-center ">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">For Living Room </h4>
-                            <p class="card-text">Created by: Nikunj Patel</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 mb-4">
-                    <div class="card shadow">
-                        <img class="img-fluid" alt="100%x280"
-                            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                        <div
-                            class="card-img-overlay p-1 d-flex  flex-column  align-items-baseline justify-content-center ">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">New Articles</h4>
-                            <p class="card-text">Created by: Nikunj Patel</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 mb-4">
-                    <div class="card shadow">
-                        <img class="img-fluid" alt="100%x280"
-                            src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                        <div
-                            class="card-img-overlay p-1 d-flex  flex-column  align-items-baseline justify-content-center ">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Common Use Articles</h4>
-                            <p class="card-text">Created by: Nikunj Patel</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 mb-4">
-                </div>
-            </div>
-            <!-- <div class="row">
+                </div> -->
+                <!-- <div class="row">
                 <div class="col-6 col-sm-4 col-md-3 mb-4">
                 </div>
             </div> -->
-        </div>
+            </div>
     </section>
 
 
@@ -221,30 +171,30 @@
                     <h3 class="mb-2 display-5 fw-bold">Contact us</h3>
                     <p class="lead">Reach out At</p>
                     <p class="text-h2">
-                        <a href="mailto:nkcmetalart@gmail.com">nkcmetalart@gmail.com</a>
+                        <a href="mailto:nkkotadiya20@gmail.com">nkkotadiya20@gmail.com</a>
                     </p>
                     <p class="text-h2">
                         <strong>(Mo.) </strong>
-                        <a href="tel:+91 9876543210">+91 98765 43210</a>
+                        <a href="tel:+917041842402">+91 70418 42402</a>
                     </p>
                     <p><strong>Address</strong></p>
-                    <p>Surat, Gujarat, India - 395006</p>
+                    <p>Surat, Gujarat, India</p>
                     <p class="text-h2 mt-4">
                         <a class="me-3" href="#">
                             <i class="fab fa-facebook fa-lg"></i>
                         </a>
-                        <a class="me-3" href="#">
+                        <!-- <a class="me-3" href="#">
                             <i class="fab fa-twitter fa-lg"></i>
-                        </a>
+                        </a> -->
                         <a class="me-3" href="#">
                             <i class="fab fa-instagram fa-lg"></i>
                         </a>
                         <a class="me-3" href="#">
                             <i class="fab fa-whatsapp fa-lg"></i>
                         </a>
-                        <a class="me-3" href="#">
+                        <!-- <a class="me-3" href="#">
                             <i class="fab fa-pinterest fa-lg"></i>
-                        </a>
+                        </a> -->
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -287,9 +237,94 @@
         </footer>
     </section>
 
+    <script>
+        categories = [
+            {
+                name: "Bed Room",
+                link: "bed-room.html",
+                image: "/images/bed-room/1638359795765.jpg",
+            },
+            {
+                name: "Door & Partation",
+                link: "door-partation.html",
+                image: "/images/door-partation/1638360854775.jpg",
+            },
+            {
+                name: "Entrance",
+                link: "entrance.html",
+                image: "/images/entrance/1638360334168.jpg",
+            },
+            {
+                name: "Garden",
+                link: "garden.html",
+                image: "/images/garden/1638360593751.jpg",
+            },
+            {
+                name: "Living Room",
+                link: "living-room.html",
+                image: "/images/living-room/1638359795148.jpg",
+            },
+            {
+                name: "Name Plates",
+                link: "name-palte.html",
+                image: "/images/name-plate/1638360413679.jpg",
+            },
+            {
+                name: "Office",
+                link: "office.html",
+                image: "/images/office/1638359795765.jpg",
+            },
+            {
+                name: "Out Door",
+                link: "out-door.html",
+                image: "/images/outdoor/1638360331593.jpg",
+            },
+            {
+                name: "Painting",
+                link: "painting.html",
+                image: "/images/painting/1638360219476.jpg",
+            },
+            {
+                name: "Sculpture",
+                link: "sculpture.html",
+                image: "/images/sculpture/1638360217288.jpg",
+            },
+            {
+                name: "Table",
+                link: "table.html",
+                image: "/images/table/1638360082859.jpg",
+            },
+            {
+                name: "Other Art Work",
+                link: "other.html",
+                image: "/images/other/1638359585936.jpg",
+            },
+        ];
+        categoryElement = document.getElementById("category");
+        categories.forEach((category) => {
+            categoryElement.insertAdjacentHTML(
+                "beforeend",
+                `<div class="col-6 col-sm-4 col-md-3 mb-4">
+                    <div class="card b-0">
+                        <a href="/category/${category.link}">
+                            <img class="img-fluid" alt="${category.name}" src="${category.image}">
+                            <div
+                                class="card-img-overlay p-1 d-flex  flex-column  align-items-baseline justify-content-center ">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">${category.name}
+                                </h4>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>`
+            );
+        });
+    </script>
 
 
-    <!-- <script src='./js/main.js'></script> -->
+    <script src='/main.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
