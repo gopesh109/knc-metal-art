@@ -28,7 +28,7 @@ const setCategoryPages = (pageName, articles, imageBaseURL) => {
 const loadNavBar = () => {
   document.getElementById(
     "navigation-bar"
-  ).innerHTML = `<nav class="navbar navbar-expand-lg navbar-dark border border-dark bg-dark">
+  ).innerHTML = `<nav class="navbar navbar-expand-lg border border-dark" id='home' style='background-color: grey;'>
       <div class="container">
           <a class="navbar-brand logo" href="/index.html">
               <img src="/images/brand-logo.png" alt="Logo" style="width: 100px;">
